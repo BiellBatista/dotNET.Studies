@@ -37,6 +37,8 @@ Os elementos ocupam posições contíguas na memória. A alocação dos elemento
 
 Uma matriz consiste de dois ou mais vetores deinidos por um conjunto de  elementos. Cada dimensão de uma matriz é um vetor. O primeiro conjunto (dimensão) é considerado o primeiro vetor, o segundo conjunto o segundo vetor e assim sucessivamente.
 
+![representacao-matriz-memoria](../assets/Data-Structures/representacao-matriz-memoria.png)
+
 ### Ponteiros
 
 O ponteiro é um tipo de dado como int, char ou float. A diferença do ponteiro em relação aos outros tipos de dados é que uma variável que seja ponteiro guardará um endereço de memória.
@@ -63,4 +65,4 @@ Na variável composta homogênea, a individualização de um elemento é feita a
 
 ## Confira também
 
-- [Tipos de valor](./dotNet/types-variables/value-types/value-types)
+- [Tipos de valor](./dotNet/types-variables/value-types/value-types.md)
