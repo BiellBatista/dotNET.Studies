@@ -8,10 +8,10 @@ Se um tipo de valor contiver um membro de dados de um tipo de referência, somen
 
 Um tipo de valor pode ser de uma das duas seguintes modalidades:
 
-- Tipo de estrutura: encapsula dados e funcionalidade relacionada.
-- Tipo de enumeração: é definido por um conjunto de constantes nomeadas e representa uma escolha ou uma combinação de opções.
+- **Tipo de estrutura**: encapsula dados e funcionalidade relacionada.
+- **Tipo de enumeração**: é definido por um conjunto de constantes nomeadas e representa uma escolha ou uma combinação de opções.
 
-O C# fornece os seguintes tipos de valor internos, também conhecidos como *tipos simples*:
+O C# fornece os seguintes tipos de valor internos, também conhecidos como **tipos simples**:
 
 - Tipos numéricos integrais.
 - Tipos numéricos de ponto flutuante.
