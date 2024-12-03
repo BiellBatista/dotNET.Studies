@@ -15,7 +15,7 @@ O C# fornece um conjunto de tipos numéricos integral e ponto flutuante. Existe 
 
 > Uma conversão numérica explícita pode resultar em perda de dados ou gerar uma exceção, normalmente um _OverflowException_.
 >
-> As instruções ```checked``` e ```unchecked``` especificam o contexto de verificação de estouro para operações e conversões aritméticas do tipo integral. Quando ocorre um estouro aritmético inteiro, o contexto de verificação de estouro define o que acontece. Em um contexto verificado, um _System.OverflowException_ é lançado; se o estouro acontece em uma expressão de constante, ocorre um erro em tempo de compilação. Em um contexto não verificado, o resultado da operação é truncado pelo descarte dos bits de ordem superior que não se ajustam ao tipo de destino. Por exemplo, a adição quebra do valor máximo para o valor mínimo. O seguinte exemplo mostra a mesma operação em um contexto verificado e não verificado:
+> As instruções ```checked``` e ```unchecked``` especificam o contexto de verificação de estouro para operações e conversões aritméticas do tipo integral. Quando ocorre um estouro aritmético inteiro, o contexto de verificação de estouro define o que acontece. Em um contexto verificado, um _System.OverflowException_ é lançado; se o estouro acontece em uma expressão de constante, ocorre um erro em tempo de compilação. Em um contexto não verificado, o resultado da operação é truncado pelo descarte dos _bits_ de ordem superior que não se ajustam ao tipo de destino. Por exemplo, a adição quebra do valor máximo para o valor mínimo. O seguinte exemplo mostra a mesma operação em um contexto verificado e não verificado:
 >
 > ```c#
 > uint a = uint.MaxValue;
