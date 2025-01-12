@@ -3,7 +3,7 @@
 Os operadores _bit_ a _bit_ e de deslocamento incluem complemento _bit_ a _bit_ unário, deslocamento binário para a esquerda e a direita, deslocamento sem sinal para a direita e os operadores binários lógicos AND, OR e OR exclusivo. Esses operandos usam operandos dos tipos numéricos integrais ou do tipo char.
 
 - **Operador unário**: [~ (complemento _bit_ a _bit_)](#operador-de-complemento-bit-a-bit-).
-- **Operadores binários**: [<< (deslocamento para a esquerda)](#operador-de-deslocamento-à-esquerda-), >> (deslocamento para a direita) e >>> (sem sinal de deslocamento para a direita).
+- **Operadores binários**: [<< (deslocamento para a esquerda)](#operador-de-deslocamento-à-esquerda-), [>> (deslocamento para a direita)](#operador-de-deslocamento-à-direita-) e [>>> (sem sinal de deslocamento para a direita)](#operador-de-deslocamento-para-a-direita-sem-sinal-).
 - **Operadores binários**: & (AND lógico), | (OR lógico) e ^ (OR exclusivo lógico).
 
 Esses operadores são definidos para os tipos ```int```, ```uint```, ```long``` e ```ulong```. Quando ambos os operandos são de outros tipos integrais (```sbyte```, ```byte```, ```short```, ```ushort``` ou ```char```), seus valores são convertidos no tipo ```int```, que também é o tipo de resultado de uma operação. Quando os operandos são de tipos integrais diferentes, seus valores são convertidos no tipo integral mais próximo que o contém. Os operadores compostos (como >>=) não convertem seus argumentos em ```int``` ou têm o tipo de resultado como ```int```.
